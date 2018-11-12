@@ -59,6 +59,7 @@ public class loginpage extends Activity {
     private void fungsibaru(String a)
     {
         //updatefromivan;
+        //oaewifjoaiwhgoiwrvo3wvhwr
     }
 }
 

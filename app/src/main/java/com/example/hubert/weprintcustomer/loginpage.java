@@ -14,7 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.content.Intent;
 
-public class loginpage extends Activity{
+public class loginpage extends Activity {
 
     private EditText Email;
     private EditText Password;
@@ -22,23 +22,19 @@ public class loginpage extends Activity{
     private Button Login;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.loginpage);
 
-        Email = (EditText)findViewById(R.id.inputemail);
-        Password = (EditText)findViewById(R.id.inputpassword);
-        Info = (TextView)findViewById(R.id.errLabel);
-        Login = (Button)findViewById(R.id.Blogin);
+        Email = (EditText) findViewById(R.id.inputemail);
+        Password = (EditText) findViewById(R.id.inputpassword);
+        Info = (TextView) findViewById(R.id.errLabel);
+        Login = (Button) findViewById(R.id.Blogin);
 
-        Login.setOnClickListener(new View.OnClickListener()
-        {
+        Login.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick (View view)
-            {
+            public void onClick(View view) {
                 validate(Email.getText().toString(), Password.getText().toString());
             }
         });
@@ -46,21 +42,18 @@ public class loginpage extends Activity{
     }
 
 
-    private void validate(String userEmail, String userPassword)
-    {
-        if((userEmail.equals("admin@weprint.com")) && (userPassword.equals("1234")))
-        {
+    private void validate(String userEmail, String userPassword) {
+        if ((userEmail.equals("admin@weprint.com")) && (userPassword.equals("1234"))) {
             Intent intent = new Intent(loginpage.this, Home.class);
             startActivity(intent);
-        }
-        else
-        {
+        } else {
             Info.setVisibility(View.VISIBLE);
         }
     }
 
+
+    private void cobacommit(String a) {
+        //coba;s
+    }
 }
 
-private void cobacommit() {
-
-        }

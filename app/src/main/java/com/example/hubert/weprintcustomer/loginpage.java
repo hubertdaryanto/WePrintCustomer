@@ -55,5 +55,10 @@ public class loginpage extends Activity {
     private void cobacommit(String a) {
         //coba;s
     }
+
+    private void fungsibaru(String a)
+    {
+        //updatefromivan;
+    }
 }
 

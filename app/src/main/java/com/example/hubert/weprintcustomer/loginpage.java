@@ -60,3 +60,7 @@ public class loginpage extends Activity{
     }
 
 }
+
+private void cobacommit() {
+
+        }

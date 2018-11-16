@@ -6,6 +6,26 @@
     android:layout_height="match_parent">
 
     <EditText
+        android:id="@+id/textOrderName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ukuran Kertas"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:id="@+id/textOrderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jumlah Kertas"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <EditText
         android:id="@+id/TextOrderName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
